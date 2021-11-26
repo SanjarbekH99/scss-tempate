@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import "./fonts";
+// @import "./variables.scss";
+@import "./normalize";
+@import "./general";
+
+@import "./blocks/blocks";
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: aqua;
+    width:100px;
+    height:100px;
+    margin:auto;
+    margin-top: 10px;
+}
